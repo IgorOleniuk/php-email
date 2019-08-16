@@ -1,21 +1,10 @@
 <?php
 //mail('ivanigorolenyk@gmail.com', 'subject', 'Line1 \n Line2 \n Line3');
 
-$to = 'ivanigorolenyk@gmail.com';
+$to = 'igor@igoroleniul.com.ua';
 $subject = 'Заголовок письма';
 $message = '<p>Текст письма</p>';
-$headers = 'From: ivanigorolenyk@gmail.com';
+$headers = 'From: igor@igoroleniul.com.ua';
 
 mail($to, $subject, $message, $headers);
 ?>
-
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-  </head>
-  <body>
-
-  </body>
-</html>
